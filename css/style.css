@@ -16,8 +16,6 @@ h1 strong{
 }
 h2{
 	text-transform: uppercase;
-	line-height: 20px;
-	margin:  0;
 }
 h3{
 font-size: 18px;
@@ -135,24 +133,51 @@ font-weight: 900;
 
 .overlay-blue{
 	background: rgba(1,170,255,1);
-	height: 750px;
+	height: auto;
 	background-attachment: fixed;
+	padding-bottom: 25px;
 }
 .overlay-green{
 	background: rgba(0,208,127,1);
-	height: 650px;
+	height: auto;
 	background-attachment: fixed;
+	padding-bottom: 25px;
 }
 .overlay-white{
 	background: rgba(255,255,255,0.5);
-	height: 650px;
+	height: auto;
 	background-attachment: fixed;
+	padding-bottom: 25px;
+}
+.overlay-white h2{
+	color: #0DB575;
+}
+
+.engage-section .content{
+	padding-top: 3%;
+}
+#sec1{
+	height: 750px;
+}
+#sec3{
+	height: 1300px;
+}
+#sec4{
+	height: 500px;
 }
 .engage-section{
-	height: 650px;
+	heigth: 900px;
 }
 #tf-engage{
 	color: #fff;
+}
+#tf-engage p{
+	font-size: 16px;
+}
+ul {
+	font-size: 16px;
+    list-style-position: inside;
+    margin-left: 25px; 
 }
 #tf-studies{
 	background-image: url("../img/07.jpg");
@@ -178,25 +203,26 @@ font-weight: 900;
 	color: #cfcfcf;
 }
 #tf-home p.lead{
-	color: rgba(250,250,250,0.9);
+	color: rgba(250,250,250,1);
 }
 
 #video-box {
 	position: relative;
+	display: inline-block;
 	background: url(../img/01.png);
-	background-size: content;
+	background-size: 400px;
 	background-repeat: no-repeat;
-	width:  510px;
-	margin-left: 31%;
+	width:  400px;
+	height: 350px;
 }
 
 .presentation-video{
-	padding: 22px 26px 67px 20px;
+	padding: 20px 18px 120px 18px;
 }
 
 .content{
 	position: relative;
-	padding: 8% 0 0;
+	padding: 6% 0 0;
 }
 
 .color{

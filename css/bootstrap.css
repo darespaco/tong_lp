@@ -1455,10 +1455,9 @@ abbr[data-original-title] {
   text-transform: uppercase;
 }
 blockquote {
-  padding: 10px 20px;
-  margin: 0 0 20px;
+  padding: 0px 20px;
+  margin: 0 0 0px;
   font-size: 17.5px;
-  border-left: 5px solid #eee;
 }
 blockquote p:last-child,
 blockquote ul:last-child,
@@ -1471,7 +1470,7 @@ blockquote .small {
   display: block;
   font-size: 80%;
   line-height: 1.42857143;
-  color: #777;
+  opacity: 0.9;
 }
 blockquote footer:before,
 blockquote small:before,
@@ -5652,7 +5651,7 @@ a.list-group-item-danger.active:focus {
   border: 0;
 }
 .embed-responsive.embed-responsive-16by9 {
-  padding-bottom: 30%;
+  padding-bottom: 25%;
 }
 .embed-responsive.embed-responsive-4by3 {
   padding-bottom: 75%;
